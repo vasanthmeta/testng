@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="lName" value="krs"/>
+    <parameter name="cvv" value="342"/>
+    <parameter name="fName" value="krs"/>
+    <parameter name="pass" value="Hai@123456"/>
+    <parameter name="addrss" value="No2,NH3,MMNAGAR"/>
+    <parameter name="user" value="krsvasanth"/>
+    <parameter name="ccno" value="3742454554001268"/>
+    <classes>
+      <class name="org.hcl.Adactin">
+        <methods>
+          <include name="demo1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.hcl.Adactin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
